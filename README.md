@@ -1,7 +1,7 @@
-# ConcurrentTwoWayMapping [![Awesome](https://user-images.githubusercontent.com/6120604/88038411-d9315d00-cb4e-11ea-8b2b-bb7f2d6164f8.png)](https://github.com/imbialik/ConcurrentTwoWayMapping)
+# ConcurrentTwoWayMapping <img src="https://user-images.githubusercontent.com/6120604/88040301-5e1d7600-cb51-11ea-8665-8881b6d03183.png" align="right" width="128" height="128" />(https://github.com/imbialik/ConcurrentTwoWayMapping)
 > Concurrent generic 2 way mapping between elments
 
-<img src="https://user-images.githubusercontent.com/6120604/88038922-90c66f00-cb4f-11ea-8d1f-5313c6ea5029.png" align="right" />
+
 
 ## Examples
 
@@ -24,7 +24,7 @@
     {
         // guidEnumerable will contains guid & guid2
     }
-    ```
+    
     
   ### same type usage
     var sameTypeConcurrentTwoWayMapping = new ConcurrentTwoWayMapping<int, int>();
