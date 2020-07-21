@@ -24,9 +24,10 @@
     {
         // guidEnumerable will contains guid & guid2
     }
-    
+```
     
   ### same type usage
+```csharp
     var sameTypeConcurrentTwoWayMapping = new ConcurrentTwoWayMapping<int, int>();
     int key1 = 2, value1 = 2,value2 = 5;
     sameTypeConcurrentTwoWayMapping.TryAdd(key1, value1);
@@ -40,3 +41,4 @@
     {
         //integersEnumerable2 will contains key1
     }
+```
